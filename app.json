@@ -1,0 +1,75 @@
+{
+  "id": "e189f854-d7ab-49bf-8406-a013000fd46d",
+  "name": "AuditTool",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "Audit Tool",
+  "description": "Audit Tool",
+  "privacyStatement": "http://www.example.com/privacy",
+  "EULA": "http://www.example.com/EULA",
+  "help": "http://www.example.com/help",
+  "url": "http://www.example.com",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "publisher": "Microsoft",
+      "name": "Library Assert",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+      "publisher": "Microsoft",
+      "name": "Any",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "publisher": "Microsoft",
+      "name": "Tests-TestLibraries",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "bee8cf2f-494a-42f4-aabd-650e87934d39",
+      "publisher": "Microsoft",
+      "name": "Business Foundation Test Libraries",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "23de40a6-dfe8-4f80-80db-d70f83ce8caf",
+      "publisher": "Microsoft",
+      "name": "Test Runner",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "9856ae4f-d1a7-46ef-89bb-6ef056398228",
+      "publisher": "Microsoft",
+      "name": "System Application Test Library",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "5095f467-0a01-4b99-99d1-9ff1237d286f",
+      "publisher": "Microsoft",
+      "name": "Library Variable Storage",
+      "version": "22.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

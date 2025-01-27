@@ -1,0 +1,26 @@
+{
+    "name": "My Ruleset",
+    "description": "Ruleset to ignore specific rules",
+    "rules": [
+        {
+            "id": "AS0015",
+            "action": "None"
+        },
+        {
+            "id": "AS0051",
+            "action": "None"
+        },
+        {
+            "id": "AS0054",
+            "action": "None"
+        },
+        {
+            "id": "AS0084",
+            "action": "None"
+        },
+        {
+            "id": "AS0092",
+            "action": "None"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "al.enableCodeAnalysis": true,
+  "al.codeAnalyzers": [
+    "${CodeCop}",
+    "${UICop}",
+    "${AppSourceCop}"
+  ],
+  "al.enableExternalRulesets": true,
+  "alOutline.codeCleanupActions": [
+    "AddApplicationAreas",
+    "AddDataClassifications",
+    "AddMissingParentheses",
+    "ConvertObjectIdsToNames",
+    "FixIdentifiersCase",
+    "FixKeywordsCase",
+    "FormatDocument",
+    "RemoveBeginEnd",
+    "RemoveUnusedVariables",
+    "RemoveWithStatements",
+    "SortVariables",
+    "TrimTrailingWhitespace",
+    "SortPermissions",
+    "SortPermissionSetList",
+    "SortTableFields"
+  ],
+  "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+  "xliffSync.findByXliffGeneratorAndDeveloperNote": false,
+  "xliffSync.parseFromDeveloperNote": true,
+  "xliffSync.parseFromDeveloperNoteOverwrite": true,
+  "xliffSync.enableSnippetsForLanguages": [
+    "al"
+  ],
+  "xliffSync.snippetTargetLanguage": "en-US",
+  "xliffSync.parseFromDeveloperNoteSeparator": "||",
+  "xliffSync.detectSourceTextChanges": false,
+  "xliffSync.needWorkTranslationRulesEnableAll": true,
+  "al.ruleSetPath": "ruleset.json"
+}
